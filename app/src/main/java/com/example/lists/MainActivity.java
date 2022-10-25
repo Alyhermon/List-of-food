@@ -8,11 +8,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.Spinner;
 
 public class MainActivity extends AppCompatActivity{
 
     Spinner lista;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +24,7 @@ public class MainActivity extends AppCompatActivity{
         setContentView(R.layout.activity_main);
         lista = findViewById(R.id.TComida_spinner);
 
+        //Menu de Comida
         lista.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
