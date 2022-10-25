@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 
-public class pastas extends AppCompatActivity {
+public class Pastas extends AppCompatActivity {
 
-    String PostresList[]= {"Vainilla", "Chocolate", "Fresas", "Arandano"};
-    int PostresListas[] = {R.drawable.vainilla, R.drawable.chocolate, R.drawable.fresa, R.drawable.arandano};
+    String PastaLista[]= {"Spaghetti", "Rollos de Canela", "Canelones", "Canelei"};
+    int ImagenLista[] = {R.drawable.vainilla, R.drawable.chocolate, R.drawable.fresa, R.drawable.arandano};
 
     ListView listView;
 
@@ -17,7 +17,7 @@ public class pastas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pastas);
         listView = findViewById(R.id.ListPostres);
-        base Bclase = new base (getApplicationContext(), PostresList, PostresListas);
+        Conexion Bclase = new Conexion(getApplicationContext(), PastaLista, ImagenLista);
         listView.setAdapter(Bclase);
     }
 }

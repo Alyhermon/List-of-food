@@ -34,14 +34,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".pastas"
+            android:name=".Pastas"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".postres"
+            android:name=".Postres"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

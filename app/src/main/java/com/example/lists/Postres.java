@@ -5,11 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 
-public class postres extends AppCompatActivity {
+public class Postres extends AppCompatActivity {
 
     //Arrays
-    String PostresList[]= {"Vainilla", "Chocolate", "Fresas", "Arandano"};
-    int PostresListas[] = {R.drawable.vainilla, R.drawable.chocolate, R.drawable.fresa, R.drawable.arandano};
+    String PostresLista[]= {"Vainilla", "Chocolate", "Fresas", "Arandano"};
+    int ImagenLista[] = {R.drawable.vainilla, R.drawable.chocolate, R.drawable.fresa, R.drawable.arandano};
 
     ListView listView;
 
@@ -18,7 +18,7 @@ public class postres extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_postres);
         listView = findViewById(R.id.ListPostres);
-        base Bclase = new base (getApplicationContext(), PostresList, PostresListas);
+        Conexion Bclase = new Conexion(getApplicationContext(), PostresLista, ImagenLista);
         listView.setAdapter(Bclase);
     }
 }

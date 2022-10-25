@@ -1,22 +1,16 @@
 package com.example.lists;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.Spinner;
 
 public class MainActivity extends AppCompatActivity{
 
     Spinner lista;
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,12 +25,12 @@ public class MainActivity extends AppCompatActivity{
                 switch (position){
                     case 1:
 
-                        Intent postre = new Intent(MainActivity.this, postres.class);
+                        Intent postre = new Intent(MainActivity.this, Postres.class);
                         startActivity(postre);
                         break;
                     case 2:
 
-                        Intent pasta = new Intent(MainActivity.this, pastas.class);
+                        Intent pasta = new Intent(MainActivity.this, Pastas.class);
                         startActivity(pasta);
                         break;
 
