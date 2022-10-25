@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Type of Food</string>
+    <string-array name="comida_array">
+        <item>Seleccione Tipo de comida</item>
+        <item>Postres</item>
+        <item>Pastas</item>
+        <item>Bebidas</item>
+        <item>Carnes</item>
+        <item>Especiales</item>
+    </string-array>
+</resources>
