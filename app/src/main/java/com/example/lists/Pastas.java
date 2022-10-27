@@ -17,7 +17,7 @@ public class Pastas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pastas);
         listView = findViewById(R.id.ListPostres);
-        Conexion Bclase = new Conexion(getApplicationContext(), PastaLista, ImagenLista);
+        Adaptador Bclase = new Adaptador(getApplicationContext(), PastaLista, ImagenLista);
         listView.setAdapter(Bclase);
     }
 }
