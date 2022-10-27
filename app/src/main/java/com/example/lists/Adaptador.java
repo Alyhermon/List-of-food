@@ -46,6 +46,6 @@ public class Adaptador extends BaseAdapter {
         ImageView ImagenesList2 = convertView.findViewById(R.id.ImagenIcon);
         txtView.setText(ListasT[position]);
         ImagenesList2.setImageResource(ImagenesList[position]);
-        return convertView;//
+        return convertView;
     }
 }
