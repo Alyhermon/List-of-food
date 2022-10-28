@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Exquisito plato de Spaghetti"
+        android:text="Exquisito plato de Spaguetti"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="110dp"/>
 
