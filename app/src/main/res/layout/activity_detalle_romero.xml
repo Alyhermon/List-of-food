@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".DetallePChocolate">
+    tools:context=".DetalleRomero">
 
     <Button
         android:id="@+id/atras"
@@ -19,7 +18,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Exquisito postre de Chocolate"
+        android:text="Exquisito plato de Pasta de Romero"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="110dp"/>
 
@@ -28,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="220dp"
         android:layout_marginTop="50dp"
-        app:srcCompat="@drawable/chocolate" />
+        app:srcCompat="@drawable/romero" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -77,3 +76,5 @@ Vierte en los moldes y hornea por 20 minutos o hasta que al insertar un palillo 
 
 
 </FrameLayout>
+
+
