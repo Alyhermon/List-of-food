@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleCanelones">
+
+    <Button
+        android:id="@+id/atras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atras"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="@android:color/background_dark"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exquisito plato de Canelones"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="110dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/canelones" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes: "
+        android:layout_marginTop="270dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="2 cucharaditas de extracto de vainilla
+1 receta de glaseado de chocolate
+2 ½ (320g) tazas de harina
+1 cucharadita (5g) de bicarbonato de sodio
+½ (2.5g)cucharadita de sal
+6oz (170g) de chocolate
+¾ tazas (150g) de mantequilla
+1 ½ tazas (300g)azúcar granulada
+3 huevos
+1 ½ (350ml) de leche"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preparacion "
+        android:layout_marginTop="430dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_marginTop="370dp">
+
+
+        <TextView
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Precaliente el horno a 180°C. Prepara dos moldes de 15cm con anti-adherente.
+En un recipiente combina la harina, bicarbonato de sodio y sal. Aparte derrite el chocolate junto con la mantequilla y mezcla hasta combinar.
+Combina la azucar con el chocolate y la mantequilla. Agrega los huevos uno a uno y la vainilla. Mezcla bien.
+Agrega la harina alternando con la leche y bate hasta que este todo bien incorporado.
+Vierte en los moldes y hornea por 20 minutos o hasta que al insertar un palillo salga limpio."/>
+
+    </ScrollView>
+
+
+</FrameLayout>

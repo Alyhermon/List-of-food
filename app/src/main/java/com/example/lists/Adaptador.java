@@ -1,8 +1,6 @@
 package com.example.lists;
 
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,16 +8,17 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class Conexion extends BaseAdapter {
-
+public class Adaptador extends BaseAdapter {
+//
     Context context;
     String ListasT[];
     int ImagenesList[];
     LayoutInflater inflater;
 
-    public Conexion(Context ctx, String [] postreList, int [] images){
+
+    public Adaptador(Context ctx, String [] List, int [] images){
         this.context = ctx;
-        this.ListasT = postreList;
+        this.ListasT = List;
         this.ImagenesList = images;
         inflater = LayoutInflater.from(ctx);
     }
@@ -43,6 +42,7 @@ public class Conexion extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         convertView = inflater.inflate(R.layout.activity_postres, null);
         TextView txtView = convertView.findViewById(R.id.textView);
+        TextView descrip = convertView.findViewById(R.id.descrip);
         ImageView ImagenesList2 = convertView.findViewById(R.id.ImagenIcon);
         txtView.setText(ListasT[position]);
         ImagenesList2.setImageResource(ImagenesList[position]);

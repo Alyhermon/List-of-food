@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetallePostres">
+
+    <Button
+        android:id="@+id/atras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atras"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="@android:color/background_dark"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exquisito postre de Tres leche"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="110dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/vainilla" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes: "
+        android:layout_marginTop="270dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="200 gramos de mantequilla
+ 5 unidades de huevos
+ 1 taza de azúcar (200 gramos)
+ 2 tazas de harina (280 gramos)
+ 2 cucharadas de postre de polvo para hornear
+ 1 taza de leche (240 mililitros)
+Para el baño o cubierta de tres leches:
+ 1 lata de leche clavel (evaporada)
+ 1 lata de leche condensada
+ 1 lata de media crema néstle
+ ¼ taza de brandy
+ ¼ taza de leche (60 mililitros)"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preparacion "
+        android:layout_marginTop="420dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_marginTop="370dp">
+
+
+        <TextView
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="1. Preparar el bizcocho, pan o base del pastel de 3 leches es lo primero que haremos: para ello debemos batir los siguientes ingredientes (en este orden): mantequilla, azúcar, huevos uno a uno, la harina tamizada, el polvo hornear y la leche. Todos los ingredientes se irán incorporando poco a poco y se baten hasta que esté la mezcla bien homogénea.)
+
+2. Precalentamos el horno a 180 °C (o 360 ºF). Vierte la masa del pastel tres leches en un molde del número 22 (aproximadamente) preferiblemente engrasado o forrado con papel sulfurizado si este no es de silicona como en mi caso.
+
+3. Horneamos el bizcocho del pastel de tres leches de 30 a 45 minutos. Lo dejamos unos 45 minutos pero debes ir mirando si está listo. Clavamos un cuchillo o un palillo de madera y estará listo el bizcochuelo cuando salga limpio. Después, lo sacamos del horno y dejamos reposar a temperatura ambiente para que se entibie.
+
+4. Para hacer el baño, la cubierta o la crema tres leches (recibe varios nombres dependiendo del país proveniente) vamos a licuar las 2 leches (condensada, evaporada), el brandy, la media crema y la leche normal. Todo esto lo mezclaremos bien en una batidora.
+
+5. Cuando el bizcocho esté un poco frío báñalo con la mezcla anterior y deja que se impregne bien, sin retirarlo del molde. Mientras tanto, prepara un merengue casero siguiendo los pasos de esta sencilla receta.
+
+6. Cuando el bizcocho haya absorbido la mezcla del baño tenemos dos opciones: la primera es cubrir el pastel de 3 leches directamente con el merengue y decorarlo, o si no, podemos cortarlo por la mitad, colocar una base de merengue sobre una de las mitades, colocar la otra base de bizcocho encima, y cubrir todo el exterior de la torta con el merengue restante, es decir, rellenar el pastel 3 leches aparte de decorarlo por arriba.
+
+7. Decoramos el pastel de tres leches con el merengue que hemos preparado en el paso anterior como hayamos elegido ¡y a disfrutar! Esta receta es ideal para una celebración, cumpleaños o fiesta especial como puedes comprobar."/>
+
+
+    </ScrollView>
+
+
+</FrameLayout>

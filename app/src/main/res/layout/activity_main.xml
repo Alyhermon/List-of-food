@@ -4,12 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#b2e2f2"
     tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:textSize="40dp"
+        android:text="Bienvenido/a"/>
 
     <Spinner
         android:id="@+id/TComida_spinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:entries="@array/comida_array" />
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:entries="@array/comida_array"
+        android:layout_marginTop="200dp"/>
 
 </FrameLayout>
